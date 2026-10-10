@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "heartindicator",
+  "version": "${version}",
+  "name": "Heart Indicator",
+  "description": "Pokazuje na ekranie serca gracza, na którego patrzysz (np. 2/10). Można je włączać, powiększać i przesuwać w GUI.",
+  "authors": ["spunkyinsaan"],
+  "contact": {
+    "homepage": "https://modrinth.com/user/spunkyinsaan",
+    "sources": "https://www.youtube.com/@SpunkyInsaan20/"
+  },
+  "license": "MIT",
+  "icon": "assets/heartindicator/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["me.spunkyinsaan.heartindicator.HeartIndicatorMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
